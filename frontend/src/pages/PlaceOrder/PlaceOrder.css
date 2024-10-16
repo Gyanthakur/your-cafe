@@ -37,3 +37,92 @@
 .place-order .cart-total button{
     margin-top: 30px;
 }
+
+.payment-type{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.payment-type label{
+    border: 1px solid tomato;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+    width: 50%;
+    min-width: 250px;
+    border-radius: 5px;
+}
+
+.payment-type label:hover{
+    background-color: #fff2ef
+}
+
+
+
+
+label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Custom styling for the label */
+  label {
+    /* display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555; Text color */
+  }
+  
+  /* Style for the custom radio */
+  label .custom-radio {
+    position: relative;
+    height: 16px; /* Height of the custom radio button */
+    width: 16px; /* Width of the custom radio button */
+    background-color: #fff; /* Background color for the radio circle */
+    border: 2px solid #ccc; /* Border color when unselected */
+    border-radius: 50%; /* Round shape */
+    margin-right: 10px; /* Spacing between radio and text */
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  /* When the radio input is checked */
+  label input:checked + .custom-radio {
+    border-color: tomato; /* Border color when selected */
+    background-color: tomato; /* Fill color when selected */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Inner circle for checked state */
+  label input:checked + .custom-radio:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: white; /* Inner circle color when selected */
+    border-radius: 50%; /* Round shape */
+  }
+
+
+
+
+
+
+
+
+
+@media (max-width:800px) {
+    .place-order{
+        flex-direction: column;
+        align-items: center;
+    }
+}

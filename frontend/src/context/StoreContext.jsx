@@ -6,6 +6,7 @@ import axiox from "axios"
 const StoreContextProvider = (props) => {
 	const [cartItems, setCartItems] = useState({});
 	const url = "https://your-cafe-backend.onrender.com"
+	// const url = "http://localhost:4000"
 	const [token, setToken] = useState("");
 	const [food_list, setFoodList] = useState([]);
 
