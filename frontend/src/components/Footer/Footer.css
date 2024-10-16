@@ -49,6 +49,60 @@
     border: none;
 }
 
+.facebook-icon {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .facebook-icon:hover {
+    transform: scale(1.2);
+    color: #3b5998; /* Facebook blue */
+  }
+  
+  .linkedin-icon {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .linkedin-icon:hover {
+    transform: scale(1.2);
+    color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .twitter-icon {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .twitter-icon:hover {
+    transform: scale(1.2);
+    color: #1da1f2; /* Twitter blue */
+  }
+  
+  .whatsapp-icon {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .whatsapp-icon:hover {
+    transform: scale(1.2);
+    color: #25d366; /* WhatsApp green */
+  }
+  
+  .github-icon {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .github-icon:hover {
+    transform: scale(1.2);
+    color: #ebb30a; /* GitHub dark */
+  }
+  
+  .gitfork-icon {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .gitfork-icon:hover {
+    transform: scale(1.2);
+    color: #a09292; /* Git Fork color (or any other you prefer) */
+  }
+  
 
 
 @media (max-width:750px) {
