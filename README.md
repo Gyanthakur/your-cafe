@@ -11,7 +11,6 @@
 
 Welcome to **Your Cafe**, a food ordering web app built with the **MERN** stack (MongoDB, Express.js, React.js, Node.js) and **Vite** for fast development! 🚀
 
-![Your Cafe]([https://yourgifurl.com](https://your-cafe.onrender.com/)) 
 
 ## Features ✨
 
