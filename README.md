@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/57a402cc-c469-4eb9-8646-a67373309e6b" alt="Your Cafe Logo" width="200"/>
+  <img src="[https://github.com/user-attachments/assets/57a402cc-c469-4eb9-8646-a67373309e6b](https://github.com/user-attachments/assets/38d34567-0383-435c-9c09-ab592ec3b8a8)" alt="Your Cafe Logo" width="200"/>
 </p>
+
 
 
 # 🍽️ Your Cafe - Food Ordering Web App
